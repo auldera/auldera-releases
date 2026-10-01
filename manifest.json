@@ -1,0 +1,21 @@
+{
+  "title": "Auldera Updates",
+  "link": "https://auldera.com",
+  "description": "Most recent updates to Auldera",
+  "language": "en",
+  "entries": [
+    {
+      "version": "0.1.0",
+      "build": "6",
+      "channel": "beta",
+      "pub_date": "Thu, 01 Oct 2026 05:14:42 +0000",
+      "title": "Auldera 0.1.0 (6)",
+      "enclosure": {
+        "url": "https://auldera.com/macos/0.1.0-6/Auldera-0.1.0-6.dmg",
+        "length": 31517113,
+        "type": "application/octet-stream",
+        "ed_signature": "6wGeGzb6ep67DGvTAslK9qmiuPlXoOhinQH1vuqM8Jyy935NQKd4ahrIGpQiqvDhZYrFGLFlORfCNgzrQZfhCg=="
+      }
+    }
+  ]
+}
