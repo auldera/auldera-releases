@@ -6,6 +6,29 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "1979",
+      "channel": "nightly",
+      "pub_date": "Thu, 08 Oct 2026 12:10:14 +0000",
+      "title": "Auldera 0.1.0 (1979)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-1979.dmg",
+        "length": 52726145,
+        "type": "application/octet-stream",
+        "ed_signature": "la3UJVskiqCVxk74DmBW1J5yW3rsrfmpSmeU0wf73+1P9ksc23W+OCY0numzcfcbYcS/w+E0xmO6D4pkec9yBQ=="
+      },
+      "git_sha": "c9764561288d27746c1fa42e3f7e2dc18eebd539",
+      "release_notes": [
+        "feat: run isolated development identity and Sync acceptance (#2646)",
+        "fix(diagnostics): trace account and early sync requests (#2645)",
+        "feat: reuse Summary weights between recordings (#2509)",
+        "feat(diagnostics): propagate operation traces to the webservice (#2644)",
+        "feat(updates): show a What's New window during the private beta (#2643)",
+        "feat(update): block a retired build with an update-now window (meta #2331) (#2642)",
+        "feat(identity): web Sign in with Apple for Developer ID builds (#2641)"
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "1972",
       "channel": "nightly",
       "pub_date": "Thu, 08 Oct 2026 05:31:45 +0000",
