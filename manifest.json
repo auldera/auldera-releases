@@ -6,6 +6,37 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2095",
+      "channel": "nightly",
+      "pub_date": "Tue, 13 Oct 2026 23:40:41 +0000",
+      "title": "Auldera 0.1.0 (2095)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2095.dmg",
+        "length": 51751098,
+        "type": "application/octet-stream",
+        "ed_signature": "Kkj3PfzFyvLwyxuT9J/qizJ6QyouFGOTSgUj/jaY6rqM2xgRJvfFV9vmj9EI1C9TJJ3YtVlh18aDgRC5A+cKDQ=="
+      },
+      "git_sha": "a786e370589b874af512d98ca9955365ac40cd74",
+      "release_notes": [
+        "You can send app logs to Auldera when you export them. The export tells you whether they were sent and keeps a copy on your Mac.",
+        "Settings \u203a Advanced is simpler: detailed logging, crash reports, and Export Logs sit together, your account tools are on one card, and developer-only Zoom tools stay out of the way.",
+        "When a meeting synced from your other Mac goes into an Enhanced summary or question, that Mac now records it too, so each Mac's privacy record stays complete.",
+        "If your sign-in on this Mac stops working for good, Auldera now signs you out cleanly so you can sign in again. You no longer need to reset sign-in.",
+        "You can record with microphones and webcams that use a lower audio rate, including the Logitech C925e.",
+        "In two-person Zoom meetings, Auldera names the other person more often, including when Zoom shows no participant count or a single read briefly fails.",
+        "Auldera can name Zoom speakers in group meetings from the order of the gallery tiles, and it now reads meetings on free Zoom accounts.",
+        "Minimising the Zoom window, switching to speaker view, or pinning someone no longer stops your recording.",
+        "You can edit your meeting notes after recording, from any of your devices, and the summary tells you when it is behind your notes.",
+        "If a Mac could not sync Projects and Tags because their saved changes were damaged, Settings now offers Repair. Repair keeps your newest edits from other devices. A Mac that already has Projects or Tags waits for its first sync before you can change them.",
+        "Keep audio is now one simple menu, from Always to Until notes are written. New installs keep recordings for 30 days.",
+        "Naming Zoom speakers fills in your name, so it never turns on without one. The Accessibility reminder only appears when it's actually off.",
+        "Settings \u203a AI now says where transcription and summaries run, and what each choice sends, in one sentence under each choice. A status appears only when something needs your attention.",
+        "Settings > Calendar is simpler. Your Apple and Google calendars are in one list grouped by account, and each account shows its status next to the one button it needs. If calendars can't be loaded, Try Again now works for Apple Calendar too. Meetings now always take their calendar event's name.",
+        "You can now create, rename, recolour, archive, and delete projects right in Settings > Projects & Tags. Archived projects sit in their own fold, and the word you use for projects sits at the top."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2066",
       "channel": "nightly",
       "pub_date": "Tue, 13 Oct 2026 09:25:34 +0000",
