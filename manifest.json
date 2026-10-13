@@ -6,6 +6,25 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2066",
+      "channel": "nightly",
+      "pub_date": "Tue, 13 Oct 2026 09:25:34 +0000",
+      "title": "Auldera 0.1.0 (2066)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2066.dmg",
+        "length": 51369438,
+        "type": "application/octet-stream",
+        "ed_signature": "sqfHvZOrHLNBPbSKlSI+67o4pdvoatyRyCtT6Q3oVQWve0RvX2djJhilwjPwcjGf07ZoJTE//MYasN/KYL3NBw=="
+      },
+      "git_sha": "efaee6a3ea569cc12fc683f8cdb8fe2bf4a118a1",
+      "release_notes": [
+        "The recording capsule, the menu bar window, About, and What's New now match Auldera's new look, with warm paper backgrounds and the new typefaces. The capsule stays easy to read over any app.",
+        "You can rename a meeting from any of your devices, and the new name appears on the others.",
+        "Auldera's Mac windows, capture capsule and menu bar now use the Folio look: warm paper backgrounds, a brick accent, and the Newsreader, Instrument Sans and IBM Plex Mono typefaces where text uses the new type roles."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2063",
       "channel": "nightly",
       "pub_date": "Tue, 13 Oct 2026 06:45:16 +0000",
