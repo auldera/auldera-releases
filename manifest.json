@@ -6,6 +6,36 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2063",
+      "channel": "nightly",
+      "pub_date": "Tue, 13 Oct 2026 06:45:16 +0000",
+      "title": "Auldera 0.1.0 (2063)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2063.dmg",
+        "length": 50684031,
+        "type": "application/octet-stream",
+        "ed_signature": "q9aeA87MbQ/6A0edJgPWYAdaspM/ge5v9+3IPTqLynVcQi2co0sYqTZYEz6o04cRU4B5cMU2cmUBUTmLA4VrCg=="
+      },
+      "git_sha": "7c09420e4e791d7914c5a62bcda7d5a5013181bc",
+      "release_notes": [
+        "Two Macs on one account now show the same project summary, and a Rewrite on one Mac replaces it on the other. A meeting recorded on another device shows the summary that device wrote.",
+        "Auldera has a new icon: seven bars with one tall red bar, in the Dock, in Finder, and in the menu bar. It also has a dark version for dark icon styles.",
+        "Speaker names, tag dots, and the meeting window's other colours now come from Auldera's own paper-and-ink palette, so every speaker reads clearly in light and dark.",
+        "You can now see Sync at work: the bottom of your meeting list and Sync settings show when your meetings last synced, a progress bar while they sync, and what to do if Sync stops.",
+        "Auldera now tells you when a recording starts if Zoom speaker names can't work because Accessibility is off, with a button to open System Settings and one to check again.",
+        "If Auldera already shows as allowed but names still don't work, it tells you how to fix it.",
+        "The Mac app no longer freezes for seconds when your list of synced meetings refreshes.",
+        "\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)",
+        "Settings is easier to find your way around: Account, Recording, Calendar, AI, Projects & Tags, App, and Advanced.",
+        "Every meeting now shows in your lists, however short. You no longer need an option to see recordings under a minute.",
+        "Changes you make on one Mac now show up on your other Mac by themselves, within about a minute, without you having to open anything.",
+        "Settings no longer asks you to finish activating private updates when your Mac already gets updates without it.",
+        "Auldera's meeting window and Settings have a lighter, cleaner look. Summaries and transcripts read in a clear book typeface, and buttons, tabs, and lists use a crisp modern one.",
+        "What's New now tells you what's new in Auldera in plain, simple words."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2040",
       "channel": "nightly",
       "pub_date": "Mon, 12 Oct 2026 01:15:21 +0000",
