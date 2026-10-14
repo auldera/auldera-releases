@@ -6,6 +6,45 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2133",
+      "channel": "nightly",
+      "pub_date": "Wed, 14 Oct 2026 16:55:51 +0000",
+      "title": "Auldera 0.1.0 (2133)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2133.dmg",
+        "length": 52263918,
+        "type": "application/octet-stream",
+        "ed_signature": "+6ZOXWk8WPOWqjNrANz3oXYch0DDWDd1I2N7UH87BpQuYrV4cqUeMS3ct2pX+0c0I6NeXrOKnSvxzrrUhWxvAw=="
+      },
+      "git_sha": "e4076bee48c932a64d0e2b7f9606f606760b010f",
+      "release_notes": [
+        "While you record, the Private switch now sits next to Stop, and you can tell at a glance whether the meeting is private: a closed lock on a filled button means it is.",
+        "Copying a summary is now a small copy button at the right of the Summary heading, and it shows a check once the summary is copied.",
+        "Before you pick a summary model, Settings now shows the model your summaries actually use, and the model list marks it.",
+        "You can move a line of a transcript to the right speaker from any of your devices. The summary tells you it's behind your edits, so you can rewrite it when you choose.",
+        "If installing an update needs your Mac password, Auldera now asks you first instead of waiting on a password prompt.",
+        "Meetings now open on their summary, so you see what was decided first. Your notes are one tab away.",
+        "Your meeting name now updates while you record, once the live summary suggests one. Names you type or get from your calendar stay in place.",
+        "You can now mark any meeting Private from any of your devices, including meetings recorded on another device. Private meetings stay out of Project summaries everywhere.",
+        "The live transcript now keeps up with new speech while you record, instead of stopping and asking you to jump to the latest line.",
+        "Choose how much detail your summaries have. Pick Concise, Balanced or Detailed in Settings > AI, and new summaries follow it.",
+        "You can name a speaker in a synchronized meeting from any of your devices. The summary tells you when it is behind your edits, so you can rewrite it when you choose.",
+        "Review fixes: an origin whose Sync is paused still queues a name, so an older row cannot mask it; a name that pins the Summary re-reads the open pane; a refused local name pins nothing; an edit made while Rewrite runs keeps its mark.",
+        "Opening Settings no longer starts a full sync each time, so Sync stays quicker and avoids hitting the server's limits.",
+        "Recording now starts when nothing is playing on your Mac. If a recording can't start, the message says whether the microphone or Mac audio was the problem.",
+        "Asking about a meeting now always shows an answer, an error, or a \"took too long\" message within 30 seconds, and keeps your question so you can try again.",
+        "You can now choose what happens when a meeting starts. Keep the short countdown with Cancel, or pick Auto-join to start recording right away. Detailed logging in Advanced now explains itself in one short sentence.",
+        "Sync now tells you when a meeting cannot be synced. Other meetings keep syncing, and unchanged damaged meetings no longer slow each Sync pass.",
+        "Choose Fast, Balanced, or Best summaries from one model sheet. Download and delete models there, and see which model best fits your Mac.",
+        "Settings > Account brings your account and Sync storage together. Open Devices for device and browser access, and find your meetings and Markdown files under On this Mac.",
+        "Retrying update access now shows progress or explains what to do next.",
+        "Syncing larger meeting libraries uses less background CPU and finishes warm sync checks faster.",
+        "Find login, notifications, updates, and help together in App settings. Update access now shows the action you need only when something needs attention.",
+        "You can move any synchronized meeting into or out of a Project from any of your devices."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2095",
       "channel": "nightly",
       "pub_date": "Tue, 13 Oct 2026 23:40:41 +0000",
