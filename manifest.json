@@ -6,6 +6,35 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2183",
+      "channel": "nightly",
+      "pub_date": "Thu, 15 Oct 2026 20:03:35 +0000",
+      "title": "Auldera 0.1.0 (2183)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2183.dmg",
+        "length": 52318865,
+        "type": "application/octet-stream",
+        "ed_signature": "CxLtKdZTnDZuOTy8fB7KCsDcbqTly22hB236fv9ettECctpv2WRCfoK7MI2noSzAemC4M0fnROUei1uYi4tQBA=="
+      },
+      "git_sha": "19f0a22385800107422af0c9e52ff1a91b368ca2",
+      "release_notes": [
+        "Calendar permission that is off, managed by an organization, or write-only each has its own sentence, so Upcoming does not look like an empty day.",
+        "Recordings can finish more reliably when online transcription switches back to your Mac.",
+        "The title bar reliably lets you rename a meeting while it records.",
+        "Today's meetings now show in Upcoming even when automatic recording is off. You can start one yourself, and Auldera will not start recording on its own until you turn automatic recording back on.",
+        "None: lab-only.",
+        "Edits you make to a meeting while it syncs no longer flicker back to an older value, and a note you type during sync is no longer replaced.",
+        "If Sync waits too long for your iCloud Keychain, it now stops waiting after 15 minutes and offers Reset Sync, instead of waiting silently.",
+        "Sync waits quietly when the server asks it to slow down, then catches up in one go, so it stops retrying every minute.",
+        "Sync finishes faster after a network hiccup or a busy moment on the server, and your meeting list stays responsive while it runs.",
+        "After a speaker rename syncs between your Macs, a summary that already uses the new name no longer says it is behind your edits.",
+        "None. Diagnostics only.",
+        "After you rename a speaker or move a line to another speaker, Rewrite writes a summary that uses those names.",
+        "Auldera no longer asks for your Mac password to open its saved keys after an update. If a key saved by an older test build can't be read, Settings asks you to enter it again."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2133",
       "channel": "nightly",
       "pub_date": "Wed, 14 Oct 2026 16:55:51 +0000",
