@@ -6,6 +6,28 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2205",
+      "channel": "nightly",
+      "pub_date": "Fri, 16 Oct 2026 10:01:10 +0000",
+      "title": "Auldera 0.1.0 (2205)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2205.dmg",
+        "length": 52614952,
+        "type": "application/octet-stream",
+        "ed_signature": "4KpcbBp7rrKH4h4J7lyJuxN9/csTONZpB52dOhcI/QcsqUxtnpobYJntGHEX6TiaTKoj3z9mSCdFovgODGaZCg=="
+      },
+      "git_sha": "8d7e3307651f8bb0f65894bbb1086c6c759f77e1",
+      "release_notes": [
+        "Delegated-by: speaker-n-macos-2779-20261016-002427-9747 devin-swe (swe-2-max, max)",
+        "New accounts agree to the latest Privacy Policy, which now explains how Auldera uses your calendars.",
+        "Browser access requests can appear automatically after a temporary sync pause ends.",
+        "Check for Updates opens a window with the result, including when you are already up to date. When an update is ready, you can read the notes, skip this version, or apply and relaunch. A quiet icon appears while an optional update is waiting. Automatic updates can be turned on in that window or in Settings.",
+        "Stopping a successful recording no longer reopens your microphone and system audio just to recheck them.",
+        "When one Google calendar cannot be read, the rest of that account still shows. Upcoming lists the meetings that answered, and says it could not check every calendar when nothing remains. Settings still lists every calendar, with the unread one quieter."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2183",
       "channel": "nightly",
       "pub_date": "Thu, 15 Oct 2026 20:03:35 +0000",
