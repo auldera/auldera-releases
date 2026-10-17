@@ -6,6 +6,28 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2220",
+      "channel": "nightly",
+      "pub_date": "Sat, 17 Oct 2026 09:34:34 +0000",
+      "title": "Auldera 0.1.0 (2220)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2220.dmg",
+        "length": 53259351,
+        "type": "application/octet-stream",
+        "ed_signature": "1AQ+xaSFpsPoyx/Dg+hT7UCuSd3ZK7akHWAEvW6DDATYdXG8MjHaiN8XocEv/GmeIk3lM8pNJmR5PEcWE/bkDA=="
+      },
+      "git_sha": "afb5ca4433399a72dcc47a84d16a1badf983334b",
+      "release_notes": [
+        "https://claude.ai/code/session_01Ah6sWEXX3ASdwPdLRGGVRK",
+        "If your microphone drops out for a moment during a meeting, for example when a headset reconnects, Auldera now picks it back up within a few seconds instead of ending the microphone recording.",
+        "Sync can fetch changed meetings in fewer requests and recover after a response reaches its size limit.",
+        "Diagnostic exports now show whether background diagnostic delivery was working, paused or waiting, and why.",
+        "Recordings on unstable audio routes keep the diagnostic evidence that explains them.",
+        "Record remembers which calendar occurrence you started from, including a repeating meeting. Who is invited, the agenda, and the location stay unread until you turn Invitation details on in Calendar settings."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2205",
       "channel": "nightly",
       "pub_date": "Fri, 16 Oct 2026 10:01:10 +0000",
