@@ -6,6 +6,38 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2281",
+      "channel": "nightly",
+      "pub_date": "Mon, 19 Oct 2026 10:58:00 +0000",
+      "title": "Auldera 0.1.0 (2281)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2281.dmg",
+        "length": 54682368,
+        "type": "application/octet-stream",
+        "ed_signature": "oYPSgqMufWAf+jbP51xSDBhtDN52E3R5pAEorRx2UYKE32l8q+n6xBRWeGKgCDB0jJTMewUFgPBe0yHharXvCA=="
+      },
+      "git_sha": "7f8cc4c8557323538d1ad83038fff0e7db7aa1c2",
+      "release_notes": [
+        "Your existing calendar choices carry over. Choose which calendars appear in your schedule and can start automatic recording; new calendars stay unchecked until you choose them.",
+        "Carry a preparation question into later meetings, edit it, or mark it addressed without copying it again.",
+        "Start recording without waiting for Google Calendar. Calendar refreshes skip calendars you don\u2019t watch and load the rest more efficiently.",
+        "None. Lane timing and host placement change for agents; the app does not.",
+        "Choose or clear a project on an upcoming meeting without writing preparation notes.",
+        "The Auldera Enhanced confirmation now also explains that transcript text is sent while you record.",
+        "Auldera now frees its transcription and summary models' memory when a recording finishes, and reloads them when you start the next one.",
+        "Keyboard navigation returns you to the upcoming meeting you opened when you go back to your meeting list.",
+        "Preparation notes stay editable when you return after opening another meeting.",
+        "Preparation notes stay with the meeting they belong to when you switch meetings.",
+        "Speaker detection now gives unnamed voices clear numbers in transcripts and summaries.",
+        "Up next now shows your schedule even when your meeting history is slow to load or can't be read.",
+        "Recorded meetings stay out of Up next and Upcoming when you reopen Auldera.",
+        "Starting a new recording asks the previous meeting's final summary to stop and keeps the summary already saved.",
+        "You can open an upcoming meeting from the list and write notes for it before it starts. Those notes stay with the meeting while you record and after you stop. A meeting you prepared but did not record stays in the list as Preparation.",
+        "Builds on the Studio now wait only when free disk falls under 30 GB, and the refusal message names the Auldera outputs to clean up and the command for each."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2220",
       "channel": "nightly",
       "pub_date": "Sat, 17 Oct 2026 09:34:34 +0000",
