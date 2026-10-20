@@ -6,6 +6,41 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2327",
+      "channel": "nightly",
+      "pub_date": "Tue, 20 Oct 2026 14:07:01 +0000",
+      "title": "Auldera 0.1.0 (2327)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2327.dmg",
+        "length": 55523642,
+        "type": "application/octet-stream",
+        "ed_signature": "0koYfZmFbOS4rnYpuvWHYH9RheGh8OMRy/8xxh4yOqq0OhvoOFffPd/Oj84ruOc1q3XSflqL3eIvt1XJsLQjAA=="
+      },
+      "git_sha": "e4261df823fc2007a0b4d526e8103b19053bca6e",
+      "release_notes": [
+        "Meetings that synced without their summary now get a fresh summary, which reaches your other devices. If the summary service can't be reached when a meeting ends, the meeting now says the model was unavailable and offers Rewrite, instead of saying generation failed.",
+        "In a meeting's transcript, speech that speaker detection couldn't match to anyone now reads \"Unknown\", the same as in the meeting's document and export, instead of \"Others\".",
+        "Deleting a meeting also removes the notes and topics it produced. They stay gone after a restart.",
+        "Sync uses fewer background requests while your library is unchanged.",
+        "Fix a preparation edit made during a call not updating the live questions: edited questions now show their new wording and count as covered only once the conversation actually covers them.",
+        "Open any finished meeting to see its summary, topics and action items in one place. Keep or assign an item, mark it open, done or carried, and play the moment it came from. Tell Auldera what it got right or wrong with a thumbs up or down. New installs keep recordings on your Mac until you delete them; existing installs keep their chosen setting, which you can change in Settings.",
+        "Saved meeting documents and Markdown exports now show Speaker 1, Speaker 2, and so on, and update as soon as you name a speaker or move a line to another speaker, on this Mac or another of your devices.",
+        "Join a video call or start recording it right from an upcoming meeting row or its preparation page, and open Google Calendar events in your browser.",
+        "Meetings keep syncing after you delete a meeting whose upload had paused.",
+        "You can review and link earlier meetings while preparing a recurring meeting, then undo the group if needed.",
+        "Thread suggestions now work with Enhanced without downloading a writing model. Their files are counted correctly in storage and can be removed.",
+        "Crash reports and diagnostics now always send in the beta, so Settings no longer has a switch to turn them off.",
+        "Asking a question about a meeting now clears the question box once the answer arrives, and keeps the question when an answer fails or times out so you can try again.",
+        "Your spoken promises keep appearing if Auldera Enhanced goes offline or reaches its daily limit.",
+        "With Invitation details turned on, Google Calendar meetings now show who is invited, the organizer, the agenda, and the location, as Apple Calendar meetings already do.",
+        "Get a reminder before each meeting, with an action to join and record, record an in-person meeting, or open your preparation.",
+        "Keep track of topics, commitments and questions while you record. Press Command-M to mark the last thirty seconds and add a short label.",
+        "See relevant earlier meetings while preparing or reviewing a meeting. Read their dated summaries and earlier next steps, add a meeting from your library, or remove a suggestion for this meeting or its series with Undo.",
+        "Questions you carry forward now also appear in a recurring meeting after someone moves it to a different time."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2281",
       "channel": "nightly",
       "pub_date": "Mon, 19 Oct 2026 10:58:00 +0000",
