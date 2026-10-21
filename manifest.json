@@ -6,6 +6,27 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2378",
+      "channel": "nightly",
+      "pub_date": "Wed, 21 Oct 2026 12:14:49 +0000",
+      "title": "Auldera 0.1.0 (2378)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2378.dmg",
+        "length": 56522378,
+        "type": "application/octet-stream",
+        "ed_signature": "r+UxYO7C/5FC41ZoNMbsQETf/odoLVjOLhgKiB6XZ++DiRYldxO3LfGFCfhYs68sW2hnGZcWqSSoxiIONK9YBA=="
+      },
+      "git_sha": "156281821c92ee3b5e4124a2ecd978e6f1ee5d0c",
+      "release_notes": [
+        "Recordings started from an upcoming meeting now stay in the open project, without extra notification banners.",
+        "When speaker names or speaker attribution change after a meeting summary is written, the meeting actions menu now offers to regenerate the summary.",
+        "Diagnostic reports now include response timings from the workspace.",
+        "When a topic wraps up, Auldera can still offer a link to an earlier thread even if you named the project late in the conversation.",
+        "During first-run setup you can connect this Mac's calendars so Auldera can show your next meeting and name recordings from it. You can skip it. Recording never waits on a calendar."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2327",
       "channel": "nightly",
       "pub_date": "Tue, 20 Oct 2026 14:07:01 +0000",
