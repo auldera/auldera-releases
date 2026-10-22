@@ -6,6 +6,12 @@
     <description>Most recent updates to Auldera</description>
     <language>en</language>
     <item>
+      <title>Auldera 0.1.0 (2433)</title>
+      <pubDate>Thu, 22 Oct 2026 17:36:45 +0000</pubDate>
+      <sparkle:channel>nightly</sparkle:channel>
+      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2433.dmg" sparkle:version="2433" sparkle:shortVersionString="0.1.0" length="60025346" type="application/octet-stream" sparkle:edSignature="gb18cz4V0k3PY+CcP2IM62OW85gZ92+dzgXgKBKnjokS1eclZ48Rujr6oRAbo451MVqiGgpTDbFjN2Uccdj6Aw=="/>
+    </item>
+    <item>
       <title>Auldera 0.1.0 (2378)</title>
       <pubDate>Wed, 21 Oct 2026 12:14:49 +0000</pubDate>
       <sparkle:channel>nightly</sparkle:channel>

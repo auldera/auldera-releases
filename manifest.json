@@ -6,6 +6,36 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2433",
+      "channel": "nightly",
+      "pub_date": "Thu, 22 Oct 2026 17:36:45 +0000",
+      "title": "Auldera 0.1.0 (2433)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2433.dmg",
+        "length": 60025346,
+        "type": "application/octet-stream",
+        "ed_signature": "gb18cz4V0k3PY+CcP2IM62OW85gZ92+dzgXgKBKnjokS1eclZ48Rujr6oRAbo451MVqiGgpTDbFjN2Uccdj6Aw=="
+      },
+      "git_sha": "8fde27a60a1296b82622379faeffe924e779b1e2",
+      "release_notes": [
+        "Import transcripts from earlier meetings and bring their confirmed follow-ups into your next meeting. A From last time card shows what is open, done or carried before you start recording and while you meet.",
+        "The summary model picker now ends with an Automatic setting that picks the right balance of memory and speed for your Mac, and a slider to choose it yourself, from lowest memory to fastest. When your Mac runs low on memory during a meeting, Auldera eases off without changing your model.",
+        "None \u2014 internal test-lane bookkeeping only.",
+        "The summary model picker now shows only the models that suit your Mac, each with a speed and a quality rating in dots. If a model you chose is no longer offered, Auldera switches you to the best fit once and tells you, then clears the old model's files after your next meeting summary.",
+        "You can now save a meeting's live thread trace from its Export menu, and a full log export can include it when you choose to add raw files.",
+        "Macs with 24 GB or more of memory can now pick a faster build of the 12B model for summaries. It downloads a small helper along with the model and writes summaries faster.",
+        "A Project name in a narrow meeting window now shows as much of the name as fits, with an ellipsis, instead of a single cut-off letter.",
+        "Linking earlier meetings to an upcoming one is more reliable: the app now always confirms the link or tells you it could not be saved.",
+        "Local summaries use less memory on long meetings.",
+        "None \u2014 test-suite hardening only; no user-visible change.",
+        "Review commitments and pinned moments when you stop recording. Keep, edit or dismiss items, or skip the review in one tap. You can also edit and dismiss items after reopening the meeting.",
+        "You can listen to a single line of a meeting transcript and confirm whether it was said by you or another participant.",
+        "When you start recording while more than one meeting is on your calendar, you can pick which meeting it is right below the top bar, or change or unlink a recording's calendar event later from Meeting actions.",
+        "The menu bar now names the meeting you are in and how much time is left, and the menu lists today's and tomorrow's meetings next to Start and Stop."
+      ]
+    },
+    {
+      "version": "0.1.0",
       "build": "2378",
       "channel": "nightly",
       "pub_date": "Wed, 21 Oct 2026 12:14:49 +0000",
