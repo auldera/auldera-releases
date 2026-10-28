@@ -6,6 +6,49 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2606",
+      "channel": "nightly",
+      "pub_date": "Wed, 28 Oct 2026 12:19:39 +0000",
+      "title": "Auldera 0.1.0 (2606)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2606.dmg",
+        "length": 59308541,
+        "type": "application/octet-stream",
+        "ed_signature": "mWoJNSBY8uHYwsUNXPWcOXGWYtd2wiweEgekSS7iYb1hOexkndcir/2CGXZNrWE4vKVdDJ5vB3IhYD7Kt4diBQ=="
+      },
+      "git_sha": "8178e57a35a6fef53ef0e45d416394c7579a278c",
+      "release_notes": [
+        "You can rename a speaker named from Zoom in the transcript, or clear the name to use their Zoom name again.",
+        "The meeting-bundle note in private-beta Settings now matches the updated Privacy Policy.",
+        "Dogfood builds can now turn on nightly builds in Settings > Updates to get the latest changes every night.",
+        "Dogfood builds now install nightly updates only after opting in to nightly updates; certified builds stay on the beta channel.",
+        "If you quit Auldera before a meeting's summary could be written, the summary is now written the next time you open the app.",
+        "An open meeting page showing Previous context no longer keeps re-reading your library every few seconds, so Auldera uses much less CPU while idle.",
+        "While a meeting is recording, your notes, running summary, and a two-line live transcript feed appear together on one page, with the recording timer and Stop button in the top bar.",
+        "Prepare for your next meeting with a clearer page and a prominent Join and record button.",
+        "When Zoom speaker evidence identifies who spoke in a diarized cluster, the transcript now shows that participant's name in a dimmed style while keeping Speaker N in plain-text copies and exports until you confirm a name.",
+        "Sign in to Auldera in your browser using Apple or email, then return to the Mac app.",
+        "Each finished meeting now opens as one continuous page with your summary, decisions, next steps, open questions, notes, and inline Ask answers in a single column, plus a top-bar button to show or hide the transcript.",
+        "The meeting list now stays beside your notes down to compact window sizes and switches cleanly between the list and your meeting in narrow windows, with a simpler toolbar at the top of each meeting.",
+        "Speaker detection resumes after a new recording or an abandoned start, with its progress shown in the transcript.",
+        "When your Mac runs low on memory during a meeting, live topics no longer wait minutes for their titles. They get their names when the meeting ends instead.",
+        "Diagnostics from a long meeting now upload in the same day instead of waiting until the next, and a signed-in Mac keeps uploading even when the signed-out allowance is used up.",
+        "Windows and menus have a warmer, easier-to-read look.",
+        "The private beta's Zoom names step and detailed-logging note now say that your meeting bundle, including detailed logs and Zoom names, uploads automatically after each meeting once you are signed in. Detailed logging stays on or off exactly as you left it, and nothing asks you again.",
+        "When you start a new recording while the last meeting's summary is still being written, or right after you stop, that summary now finishes afterward instead of being lost.",
+        "If Auldera can't renew your sign-in, Settings now tells you and offers a one-click way back. Sync keeps working through a brief sign-in hiccup.",
+        "The private beta now tells you, when you sign in and in Settings, that it will upload each meeting you record, with its audio, after the meeting finishes. It lists what is included, says other people in your meeting are part of it, and explains how long it is kept and how deleting a meeting removes it."
+      ],
+      "continuity": {
+        "status": "failed",
+        "failure_stage": "previous_project_summary_authored",
+        "coverage": "full-v1",
+        "run_id": "de5e864e-56cd-4e11-b427-2edf3b50f346",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/40679371113"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "2532",
       "channel": "nightly",
       "pub_date": "Mon, 26 Oct 2026 15:29:19 +0000",
@@ -35,7 +78,7 @@
         "Browse your meetings beside the open document, and keep the sidebar open as you move between meetings. Live transcripts keep following as the window changes, and Jump to Latest leaves the words clear.",
         "Model credits are shorter and still link to the licenses.",
         "Microphone switches now clearly report when the previous microphone is still in use, and synced recordings no longer show transcript flags that cannot be saved.",
-        "Automatic recording now skips invitations you haven’t accepted and events Auldera can’t confirm are yours. You can still choose Record.",
+        "Automatic recording now skips invitations you haven\u2019t accepted and events Auldera can\u2019t confirm are yours. You can still choose Record.",
         "You can flag words that were transcribed incorrectly or repeated in a recording, add a note, and clear the flag later. Your original transcript stays readable.",
         "Meeting menus and AI settings are simpler, with fewer summary controls.",
         "Zoom speaker attribution keeps reading while detailed logs capture a layout problem.",
@@ -90,14 +133,14 @@
       "release_notes": [
         "Import transcripts from earlier meetings and bring their confirmed follow-ups into your next meeting. A From last time card shows what is open, done or carried before you start recording and while you meet.",
         "The summary model picker now ends with an Automatic setting that picks the right balance of memory and speed for your Mac, and a slider to choose it yourself, from lowest memory to fastest. When your Mac runs low on memory during a meeting, Auldera eases off without changing your model.",
-        "None — internal test-lane bookkeeping only.",
+        "None \u2014 internal test-lane bookkeeping only.",
         "The summary model picker now shows only the models that suit your Mac, each with a speed and a quality rating in dots. If a model you chose is no longer offered, Auldera switches you to the best fit once and tells you, then clears the old model's files after your next meeting summary.",
         "You can now save a meeting's live thread trace from its Export menu, and a full log export can include it when you choose to add raw files.",
         "Macs with 24 GB or more of memory can now pick a faster build of the 12B model for summaries. It downloads a small helper along with the model and writes summaries faster.",
         "A Project name in a narrow meeting window now shows as much of the name as fits, with an ellipsis, instead of a single cut-off letter.",
         "Linking earlier meetings to an upcoming one is more reliable: the app now always confirms the link or tells you it could not be saved.",
         "Local summaries use less memory on long meetings.",
-        "None — test-suite hardening only; no user-visible change.",
+        "None \u2014 test-suite hardening only; no user-visible change.",
         "Review commitments and pinned moments when you stop recording. Keep, edit or dismiss items, or skip the review in one tap. You can also edit and dismiss items after reopening the meeting.",
         "You can listen to a single line of a meeting transcript and confirm whether it was said by you or another participant.",
         "When you start recording while more than one meeting is on your calendar, you can pick which meeting it is right below the top bar, or change or unlink a recording's calendar event later from Meeting actions.",
@@ -176,7 +219,7 @@
       "release_notes": [
         "Your existing calendar choices carry over. Choose which calendars appear in your schedule and can start automatic recording; new calendars stay unchecked until you choose them.",
         "Carry a preparation question into later meetings, edit it, or mark it addressed without copying it again.",
-        "Start recording without waiting for Google Calendar. Calendar refreshes skip calendars you don’t watch and load the rest more efficiently.",
+        "Start recording without waiting for Google Calendar. Calendar refreshes skip calendars you don\u2019t watch and load the rest more efficiently.",
         "None. Lane timing and host placement change for agents; the app does not.",
         "Choose or clear a project on an upcoming meeting without writing preparation notes.",
         "The Auldera Enhanced confirmation now also explains that transcript text is sent while you record.",
@@ -319,7 +362,7 @@
       "git_sha": "a786e370589b874af512d98ca9955365ac40cd74",
       "release_notes": [
         "You can send app logs to Auldera when you export them. The export tells you whether they were sent and keeps a copy on your Mac.",
-        "Settings › Advanced is simpler: detailed logging, crash reports, and Export Logs sit together, your account tools are on one card, and developer-only Zoom tools stay out of the way.",
+        "Settings \u203a Advanced is simpler: detailed logging, crash reports, and Export Logs sit together, your account tools are on one card, and developer-only Zoom tools stay out of the way.",
         "When a meeting synced from your other Mac goes into an Enhanced summary or question, that Mac now records it too, so each Mac's privacy record stays complete.",
         "If your sign-in on this Mac stops working for good, Auldera now signs you out cleanly so you can sign in again. You no longer need to reset sign-in.",
         "You can record with microphones and webcams that use a lower audio rate, including the Logitech C925e.",
@@ -330,7 +373,7 @@
         "If a Mac could not sync Projects and Tags because their saved changes were damaged, Settings now offers Repair. Repair keeps your newest edits from other devices. A Mac that already has Projects or Tags waits for its first sync before you can change them.",
         "Keep audio is now one simple menu, from Always to Until notes are written. New installs keep recordings for 30 days.",
         "Naming Zoom speakers fills in your name, so it never turns on without one. The Accessibility reminder only appears when it's actually off.",
-        "Settings › AI now says where transcription and summaries run, and what each choice sends, in one sentence under each choice. A status appears only when something needs your attention.",
+        "Settings \u203a AI now says where transcription and summaries run, and what each choice sends, in one sentence under each choice. A status appears only when something needs your attention.",
         "Settings > Calendar is simpler. Your Apple and Google calendars are in one list grouped by account, and each account shows its status next to the one button it needs. If calendars can't be loaded, Try Again now works for Apple Calendar too. Meetings now always take their calendar event's name.",
         "You can now create, rename, recolour, archive, and delete projects right in Settings > Projects & Tags. Archived projects sit in their own fold, and the word you use for projects sits at the top."
       ]
@@ -375,7 +418,7 @@
         "Auldera now tells you when a recording starts if Zoom speaker names can't work because Accessibility is off, with a button to open System Settings and one to check again.",
         "If Auldera already shows as allowed but names still don't work, it tells you how to fix it.",
         "The Mac app no longer freezes for seconds when your list of synced meetings refreshes.",
-        "🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+        "\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)",
         "Settings is easier to find your way around: Account, Recording, Calendar, AI, Projects & Tags, App, and Advanced.",
         "Every meeting now shows in your lists, however short. You no longer need an option to see recordings under a minute.",
         "Changes you make on one Mac now show up on your other Mac by themselves, within about a minute, without you having to open anything.",
