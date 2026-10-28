@@ -6,6 +6,36 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2615",
+      "channel": "nightly",
+      "pub_date": "Wed, 28 Oct 2026 18:16:54 +0000",
+      "title": "Auldera 0.1.0 (2615)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2615.dmg",
+        "length": 59330081,
+        "type": "application/octet-stream",
+        "ed_signature": "n2h5JFPlxtp6yrgn4J77YVL2cCr3ADO2xx3GsD9UnEAtTOPZCZ5o8NrlXoMP/5u2LWSVdf5ovjxEAWKSSLtkCA=="
+      },
+      "git_sha": "906ed731f4c16a72b3ec376332edf8e03c22d7e6",
+      "release_notes": [
+        "Transcript turns are easier to follow: each speaker's name has its own colour with a matching rule beside their words, and live transcripts no longer show gaps between words.",
+        "What's New no longer shows empty filler lines, so every entry you see is a real change.",
+        "Search meetings by person, date, or tag from a single search bar in the sidebar, view upcoming calls and past meetings in a cleaner timeline layout, and drag to resize the sidebar and live transcript feed.",
+        "Transcripts read more cleanly: the flag button appears only on the sentence you point at, and sentences no longer have gaps between them.",
+        "The upcoming meeting page is calmer. Your prep and open items read as a simple list, you can add a question with one click, the header shows when the meeting starts, and less-used actions moved to the \u2026 menu.",
+        "If a Mac was removed from your account, signing in again on it now works, without first resetting sign-in.",
+        "Speaker detection is less likely to combine different voices into one speaker."
+      ],
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "guest_account_enrollment",
+        "coverage": "full-v1",
+        "run_id": "8b2f2ddb-70ce-4980-8929-77f9baab5689",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/40736539906"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "2606",
       "channel": "nightly",
       "pub_date": "Wed, 28 Oct 2026 12:19:39 +0000",
