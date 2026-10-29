@@ -6,6 +6,44 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2655",
+      "channel": "nightly",
+      "pub_date": "Thu, 29 Oct 2026 12:22:30 +0000",
+      "title": "Auldera 0.1.0 (2655)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2655.dmg",
+        "length": 66281254,
+        "type": "application/octet-stream",
+        "ed_signature": "U2vpUM38PvWOqG414Iu9S9A9/MaI2Tgo3k8DDNHHzcxtkk+CmZlwHV20j7lAL/9eJgMQCUiIW5X0cr9JIun0Ag=="
+      },
+      "git_sha": "b66512913389e76fc1c9cf24f295469be426e0d2",
+      "release_notes": [
+        "Pointing at a summary topic or suggestion no longer makes the page jump. The thumbs appear beside it, and the reasons open once you pick one.",
+        "Download the new on-device speaker model from Settings. Speaker labels keep working if the download fails.",
+        "Not filed: the review note on the production archive's write atomicity (no defect named).",
+        "None for people using the app. Dogfood builds upload each meeting's bundle under its settlement, keyed by the bundle's inventory. A library migrated to the new schema keeps a copy of the previous one beside it.",
+        "Live suggestions and meeting topics now read as a clean list instead of stacked grey boxes, with less empty space between them.",
+        "Live meetings and preparation pages have clearer titles and headings, with simpler meeting actions.",
+        "The home page's upcoming meetings now read like a calendar, with each day's date beside its meetings and tomorrow's set quieter, and past meetings show a letter tile and their time at the end of the row.",
+        "Meeting pages have a calmer, book-like look with a Notes and Transcript switch under the title, Record sits at the top of the sidebar, and Send Feedback is back at its foot.",
+        "Home now shows your next working day's meetings under today's, so you can see what's coming once today is done. Each meeting row also has a \u2026 button that opens its actions without right-clicking.",
+        "When a long meeting runs low on memory on a smaller Mac, live topic naming now gives up within seconds instead of stalling for minutes, frees its memory, and your topics are still named when you stop recording.",
+        "Send Feedback's meeting option now says it includes the meeting's summary and Ask history.",
+        "Topics in a meeting you just stopped now finish getting their titles, even when your Mac is low on memory.",
+        "Long meetings are more responsive when windows redraw or resize.",
+        "Speaker labels cover more of a meeting's speech when short pauses leave gaps in voice detection.",
+        "In saved meetings, Change speaker and Listen no longer cover the speaker's name or the transcript text, including with long names and larger text sizes."
+      ],
+      "continuity": {
+        "status": "failed",
+        "failure_stage": "guest_recording_setup",
+        "coverage": "full-v1",
+        "run_id": "4032e921-d4e6-4b3f-a9f5-d2f453503830",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/40866258178"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "2615",
       "channel": "nightly",
       "pub_date": "Wed, 28 Oct 2026 18:16:54 +0000",
