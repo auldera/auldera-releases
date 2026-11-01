@@ -6,6 +6,49 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2743",
+      "channel": "nightly",
+      "pub_date": "Sun, 01 Nov 2026 12:05:12 +0000",
+      "title": "Auldera 0.1.0 (2743)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2743.dmg",
+        "length": 67083087,
+        "type": "application/octet-stream",
+        "ed_signature": "FU3ij3z5yjdZevOz2Ill3UYZMcaUkoZ9s+JqEyiT6OlnIFzxDxhKF6ytTERSjYTisdytOm1r9lE/nE2pCF+0Aw=="
+      },
+      "git_sha": "5a72686f14e905f9e408e6c98583f024bca6b464",
+      "release_notes": [
+        "Recording starts sooner and keeps your opening words.",
+        "Summaries can update while you record on supported Macs, then refresh when you stop.",
+        "Summaries download in the background during setup, so you can start recording sooner and check or cancel the download from Home.",
+        "You can skip the Audio test to record your microphone, then set up call recording later.",
+        "Starting a recording begins right away instead of waiting for the on-device summary model to finish loading in the background.",
+        "Meeting pages are cleaner: a finished or live meeting shows its Summary, your notes, the transcript and Ask, without topic lists, thread links, commitment cards or the topic-model download. The meeting list on the left has a little more room.",
+        "On a Zoom call with one other person, speech that Auldera could not match to a name while recording now shows that person's name after you stop, shown dimmed until you confirm it, instead of a separate numbered speaker.",
+        "Suggested questions in Ask now appear as soon as a meeting's Summary is ready, without closing and reopening the meeting.",
+        "If you record a meeting before your Mac has a summary model, its summary now writes itself as soon as the model finishes downloading. Until then the meeting page says it is getting summaries ready.",
+        "Summaries of long Zoom meetings now start about a minute sooner after you stop recording.",
+        "A meeting summary that briefly can't reach the Enhanced service now keeps retrying instead of silently giving up.",
+        "You can now play the exact moment a quote in an Ask answer comes from. Press Play under the quote, and Stop to end it. When the audio for a quote is no longer on your Mac, Ask says so.",
+        "Remember this voice now appears for a speaker Zoom has named, even when their first line was named by Zoom directly. Confirming a name Zoom suggested now keeps all of that speaker's lines together when you rename them later.",
+        "First setup now offers an optional way to import transcripts from Zoom, Otter, Granola, or Markdown files, so your earlier meetings are in Auldera before your first recording.",
+        "After you allow calendar access the first time you open Auldera, your calendars now appear right away. You no longer have to quit and reopen the app.",
+        "Choose a Project when importing transcripts. The open Project is selected for you, or you can choose No project.",
+        "Ask now shows the exact words each answer comes from, with who said them and when, right under the answer. You no longer hover to see them. When part of an answer had no source, Ask says so.",
+        "Stopped Enhanced Project Summaries from repeatedly retrying in the background when an account is signed out, out of usage allowance, or missing access.",
+        "On a smaller Mac that runs low on memory during a meeting, Auldera now frees its on-device model within seconds, even when another summary is using it, and still names your topics when you stop recording.",
+        "You can now import a whole folder of Granola, Otter, Zoom or Markdown transcripts at once. Auldera picks the format and reads each meeting’s title and date from the file, then tells you how many meetings it imported, how many it already had, and which files it couldn’t read."
+      ],
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "WorkloadBusy",
+        "coverage": "full-v1",
+        "run_id": "ab5e644a-9263-4dff-aa69-f1410bd9f92e",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/41303758663"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "2690",
       "channel": "nightly",
       "pub_date": "Fri, 30 Oct 2026 11:37:20 +0000",
