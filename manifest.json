@@ -6,6 +6,36 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2765",
+      "channel": "nightly",
+      "pub_date": "Mon, 02 Nov 2026 16:00:03 +0000",
+      "title": "Auldera 0.1.0 (2765)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2765.dmg",
+        "length": 67225352,
+        "type": "application/octet-stream",
+        "ed_signature": "kzBvm/HwzQinh6a0zycHZZ0dp1Ni0aiF8kSZb2Y0+Nm/QJ8faf19SQOF07dDMEGLECLYHs7djTn5wcOrVN4SCw=="
+      },
+      "git_sha": "642ff741063778b1fb772a02c43a5183a0d2e211",
+      "release_notes": [
+        "No customer-facing change. Routine CI defers unrelated broad suites to full-main validation and records positive non-native functional failures for cadence repair.",
+        "Searching your meetings now also finds the project a meeting belongs to. Search keeps working when your projects can't be read, and a search with no results says what you searched for and where.",
+        "Meetings in other languages show live text as you record, and a more accurate transcript replaces it soon after you stop.",
+        "Updating models leaves a working speech model in place, so the next time you open Auldera you can record without a long wait.",
+        "Stopping a recording in a large library finishes sooner when a search is open.",
+        "The recording indicator disappears after you stop, so it no longer suggests that recording continues while notes save.",
+        "Stopping a recording no longer waits for background speaker processing of older meetings."
+      ],
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "InfrastructureBlocked",
+        "coverage": "full-v1",
+        "run_id": "eb2784ad-8bed-4da2-bcd3-5b40d657f73c",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/41474548399"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "2743",
       "channel": "nightly",
       "pub_date": "Sun, 01 Nov 2026 12:05:12 +0000",
