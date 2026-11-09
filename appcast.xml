@@ -6,6 +6,12 @@
     <description>Most recent updates to Auldera</description>
     <language>en</language>
     <item>
+      <title>Auldera 0.1.0 (2987)</title>
+      <pubDate>Mon, 09 Nov 2026 12:30:39 +0000</pubDate>
+      <sparkle:channel>nightly</sparkle:channel>
+      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2987.dmg" sparkle:version="2987" sparkle:shortVersionString="0.1.0" length="68532604" type="application/octet-stream" sparkle:edSignature="6HDmuGMQ8OWB/MEK9o3t+nnE/4s2uQmg1XuhpGq991fNtGu9gBzNQ0oidAkTvuB5pBiusSzoRA++1DCpwSsbCw=="/>
+    </item>
+    <item>
       <title>Auldera 0.1.0 (2918)</title>
       <pubDate>Thu, 05 Nov 2026 14:57:24 +0000</pubDate>
       <sparkle:channel>nightly</sparkle:channel>
@@ -46,96 +52,6 @@
       <pubDate>Wed, 28 Oct 2026 12:19:39 +0000</pubDate>
       <sparkle:channel>nightly</sparkle:channel>
       <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2606.dmg" sparkle:version="2606" sparkle:shortVersionString="0.1.0" length="59308541" type="application/octet-stream" sparkle:edSignature="mWoJNSBY8uHYwsUNXPWcOXGWYtd2wiweEgekSS7iYb1hOexkndcir/2CGXZNrWE4vKVdDJ5vB3IhYD7Kt4diBQ=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2532)</title>
-      <pubDate>Mon, 26 Oct 2026 15:29:19 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2532.dmg" sparkle:version="2532" sparkle:shortVersionString="0.1.0" length="61701933" type="application/octet-stream" sparkle:edSignature="KpYvj5o6RsdoQIwgBd99GOIabiqV62W0EN3PbufryHCo0ibWUzPbpofpwecvkhwUBd20W/XkcqfkUD5FwwIvDA=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2433)</title>
-      <pubDate>Thu, 22 Oct 2026 17:36:45 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2433.dmg" sparkle:version="2433" sparkle:shortVersionString="0.1.0" length="60025346" type="application/octet-stream" sparkle:edSignature="gb18cz4V0k3PY+CcP2IM62OW85gZ92+dzgXgKBKnjokS1eclZ48Rujr6oRAbo451MVqiGgpTDbFjN2Uccdj6Aw=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2378)</title>
-      <pubDate>Wed, 21 Oct 2026 12:14:49 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2378.dmg" sparkle:version="2378" sparkle:shortVersionString="0.1.0" length="56522378" type="application/octet-stream" sparkle:edSignature="r+UxYO7C/5FC41ZoNMbsQETf/odoLVjOLhgKiB6XZ++DiRYldxO3LfGFCfhYs68sW2hnGZcWqSSoxiIONK9YBA=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2327)</title>
-      <pubDate>Tue, 20 Oct 2026 14:07:01 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2327.dmg" sparkle:version="2327" sparkle:shortVersionString="0.1.0" length="55523642" type="application/octet-stream" sparkle:edSignature="0koYfZmFbOS4rnYpuvWHYH9RheGh8OMRy/8xxh4yOqq0OhvoOFffPd/Oj84ruOc1q3XSflqL3eIvt1XJsLQjAA=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2281)</title>
-      <pubDate>Mon, 19 Oct 2026 10:58:00 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2281.dmg" sparkle:version="2281" sparkle:shortVersionString="0.1.0" length="54682368" type="application/octet-stream" sparkle:edSignature="oYPSgqMufWAf+jbP51xSDBhtDN52E3R5pAEorRx2UYKE32l8q+n6xBRWeGKgCDB0jJTMewUFgPBe0yHharXvCA=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2220)</title>
-      <pubDate>Sat, 17 Oct 2026 09:34:34 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2220.dmg" sparkle:version="2220" sparkle:shortVersionString="0.1.0" length="53259351" type="application/octet-stream" sparkle:edSignature="1AQ+xaSFpsPoyx/Dg+hT7UCuSd3ZK7akHWAEvW6DDATYdXG8MjHaiN8XocEv/GmeIk3lM8pNJmR5PEcWE/bkDA=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2205)</title>
-      <pubDate>Fri, 16 Oct 2026 10:01:10 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2205.dmg" sparkle:version="2205" sparkle:shortVersionString="0.1.0" length="52614952" type="application/octet-stream" sparkle:edSignature="4KpcbBp7rrKH4h4J7lyJuxN9/csTONZpB52dOhcI/QcsqUxtnpobYJntGHEX6TiaTKoj3z9mSCdFovgODGaZCg=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2183)</title>
-      <pubDate>Thu, 15 Oct 2026 20:03:35 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2183.dmg" sparkle:version="2183" sparkle:shortVersionString="0.1.0" length="52318865" type="application/octet-stream" sparkle:edSignature="CxLtKdZTnDZuOTy8fB7KCsDcbqTly22hB236fv9ettECctpv2WRCfoK7MI2noSzAemC4M0fnROUei1uYi4tQBA=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2133)</title>
-      <pubDate>Wed, 14 Oct 2026 16:55:51 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2133.dmg" sparkle:version="2133" sparkle:shortVersionString="0.1.0" length="52263918" type="application/octet-stream" sparkle:edSignature="+6ZOXWk8WPOWqjNrANz3oXYch0DDWDd1I2N7UH87BpQuYrV4cqUeMS3ct2pX+0c0I6NeXrOKnSvxzrrUhWxvAw=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2095)</title>
-      <pubDate>Tue, 13 Oct 2026 23:40:41 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2095.dmg" sparkle:version="2095" sparkle:shortVersionString="0.1.0" length="51751098" type="application/octet-stream" sparkle:edSignature="Kkj3PfzFyvLwyxuT9J/qizJ6QyouFGOTSgUj/jaY6rqM2xgRJvfFV9vmj9EI1C9TJJ3YtVlh18aDgRC5A+cKDQ=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2066)</title>
-      <pubDate>Tue, 13 Oct 2026 09:25:34 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2066.dmg" sparkle:version="2066" sparkle:shortVersionString="0.1.0" length="51369438" type="application/octet-stream" sparkle:edSignature="sqfHvZOrHLNBPbSKlSI+67o4pdvoatyRyCtT6Q3oVQWve0RvX2djJhilwjPwcjGf07ZoJTE//MYasN/KYL3NBw=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2063)</title>
-      <pubDate>Tue, 13 Oct 2026 06:45:16 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2063.dmg" sparkle:version="2063" sparkle:shortVersionString="0.1.0" length="50684031" type="application/octet-stream" sparkle:edSignature="q9aeA87MbQ/6A0edJgPWYAdaspM/ge5v9+3IPTqLynVcQi2co0sYqTZYEz6o04cRU4B5cMU2cmUBUTmLA4VrCg=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (2040)</title>
-      <pubDate>Mon, 12 Oct 2026 01:15:21 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-2040.dmg" sparkle:version="2040" sparkle:shortVersionString="0.1.0" length="53605626" type="application/octet-stream" sparkle:edSignature="6MsUs30xmDg/c6PAk4aTh/eelGUYEODj7UDhD1YEP5zVf0QgJJ0TvYFCoFZ4IP/vPKe1R3b9evJhsm/jXBIQAg=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (1979)</title>
-      <pubDate>Thu, 08 Oct 2026 12:10:14 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-1979.dmg" sparkle:version="1979" sparkle:shortVersionString="0.1.0" length="52726145" type="application/octet-stream" sparkle:edSignature="la3UJVskiqCVxk74DmBW1J5yW3rsrfmpSmeU0wf73+1P9ksc23W+OCY0numzcfcbYcS/w+E0xmO6D4pkec9yBQ=="/>
-    </item>
-    <item>
-      <title>Auldera 0.1.0 (1972)</title>
-      <pubDate>Thu, 08 Oct 2026 05:31:45 +0000</pubDate>
-      <sparkle:channel>nightly</sparkle:channel>
-      <enclosure url="https://releases.auldera.com/Auldera-0.1.0-1972.dmg" sparkle:version="1972" sparkle:shortVersionString="0.1.0" length="52629369" type="application/octet-stream" sparkle:edSignature="1//U1nSeBGnOZdtAxEYgWqGO9p0Zw/ESLan5ZtfQU/zy+ZL5q5Fz8C8/mQPK5wp9JXXRXAF0M/77bZOalSEnDg=="/>
     </item>
     <item>
       <title>Auldera 0.1.0 (7)</title>
