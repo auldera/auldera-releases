@@ -6,6 +6,27 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "2995",
+      "channel": "nightly",
+      "pub_date": "Tue, 10 Nov 2026 13:40:09 +0000",
+      "title": "Auldera 0.1.0 (2995)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-2995.dmg",
+        "length": 68599117,
+        "type": "application/octet-stream",
+        "ed_signature": "mrEG3kb6zUetEEq/wjVlDR7wTwNlgIMsnQ6He4bBpy1xZzq10YNxEJOHwGEjV5WEzIG9ObRkeM94Xs017R6LBw=="
+      },
+      "git_sha": "7b57d755220b61baaab572926dcbc4432ec121ce",
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "InfrastructureBlocked",
+        "coverage": "full-v1",
+        "run_id": "1713f471-f5f8-4f76-a245-23c1896e027a",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/42824680176"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "2987",
       "channel": "nightly",
       "pub_date": "Mon, 09 Nov 2026 12:30:39 +0000",
@@ -384,49 +405,6 @@
         "coverage": "full-v1",
         "run_id": "8b2f2ddb-70ce-4980-8929-77f9baab5689",
         "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/40736539906"
-      }
-    },
-    {
-      "version": "0.1.0",
-      "build": "2606",
-      "channel": "nightly",
-      "pub_date": "Wed, 28 Oct 2026 12:19:39 +0000",
-      "title": "Auldera 0.1.0 (2606)",
-      "enclosure": {
-        "url": "https://releases.auldera.com/Auldera-0.1.0-2606.dmg",
-        "length": 59308541,
-        "type": "application/octet-stream",
-        "ed_signature": "mWoJNSBY8uHYwsUNXPWcOXGWYtd2wiweEgekSS7iYb1hOexkndcir/2CGXZNrWE4vKVdDJ5vB3IhYD7Kt4diBQ=="
-      },
-      "git_sha": "8178e57a35a6fef53ef0e45d416394c7579a278c",
-      "release_notes": [
-        "You can rename a speaker named from Zoom in the transcript, or clear the name to use their Zoom name again.",
-        "The meeting-bundle note in private-beta Settings now matches the updated Privacy Policy.",
-        "Dogfood builds can now turn on nightly builds in Settings > Updates to get the latest changes every night.",
-        "Dogfood builds now install nightly updates only after opting in to nightly updates; certified builds stay on the beta channel.",
-        "If you quit Auldera before a meeting's summary could be written, the summary is now written the next time you open the app.",
-        "An open meeting page showing Previous context no longer keeps re-reading your library every few seconds, so Auldera uses much less CPU while idle.",
-        "While a meeting is recording, your notes, running summary, and a two-line live transcript feed appear together on one page, with the recording timer and Stop button in the top bar.",
-        "Prepare for your next meeting with a clearer page and a prominent Join and record button.",
-        "When Zoom speaker evidence identifies who spoke in a diarized cluster, the transcript now shows that participant's name in a dimmed style while keeping Speaker N in plain-text copies and exports until you confirm a name.",
-        "Sign in to Auldera in your browser using Apple or email, then return to the Mac app.",
-        "Each finished meeting now opens as one continuous page with your summary, decisions, next steps, open questions, notes, and inline Ask answers in a single column, plus a top-bar button to show or hide the transcript.",
-        "The meeting list now stays beside your notes down to compact window sizes and switches cleanly between the list and your meeting in narrow windows, with a simpler toolbar at the top of each meeting.",
-        "Speaker detection resumes after a new recording or an abandoned start, with its progress shown in the transcript.",
-        "When your Mac runs low on memory during a meeting, live topics no longer wait minutes for their titles. They get their names when the meeting ends instead.",
-        "Diagnostics from a long meeting now upload in the same day instead of waiting until the next, and a signed-in Mac keeps uploading even when the signed-out allowance is used up.",
-        "Windows and menus have a warmer, easier-to-read look.",
-        "The private beta's Zoom names step and detailed-logging note now say that your meeting bundle, including detailed logs and Zoom names, uploads automatically after each meeting once you are signed in. Detailed logging stays on or off exactly as you left it, and nothing asks you again.",
-        "When you start a new recording while the last meeting's summary is still being written, or right after you stop, that summary now finishes afterward instead of being lost.",
-        "If Auldera can't renew your sign-in, Settings now tells you and offers a one-click way back. Sync keeps working through a brief sign-in hiccup.",
-        "The private beta now tells you, when you sign in and in Settings, that it will upload each meeting you record, with its audio, after the meeting finishes. It lists what is included, says other people in your meeting are part of it, and explains how long it is kept and how deleting a meeting removes it."
-      ],
-      "continuity": {
-        "status": "failed",
-        "failure_stage": "previous_project_summary_authored",
-        "coverage": "full-v1",
-        "run_id": "de5e864e-56cd-4e11-b427-2edf3b50f346",
-        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/40679371113"
       }
     },
     {
