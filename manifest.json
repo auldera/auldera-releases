@@ -6,6 +6,52 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "3082",
+      "channel": "nightly",
+      "pub_date": "Mon, 16 Nov 2026 07:20:10 +0000",
+      "title": "Auldera 0.1.0 (3082)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-3082.dmg",
+        "length": 87325564,
+        "type": "application/octet-stream",
+        "ed_signature": "ppvw6EuoHdarEOLNJjVUvmSVNc3qcwOKpWyx/Bii2X3gxohMo+9J3lCUAQ3BdHgjKYrqh1Uc5XFLVYZfB3QRAQ=="
+      },
+      "git_sha": "2196b5071b49c723113ca6787fe71ca31ed1d499",
+      "release_notes": [
+        "Creating a new plugin from an installed app or disk image keeps the new folder editable, and plugins receive accurate meeting privacy status when they run.",
+        "Setup now offers optional steps to copy prompts for connecting an assistant to your meetings or installing the plugin-creation guide.",
+        "The Pin shortcut is now Option-Command-P to avoid conflicting with window minimize, and summary feedback buttons show clean outline icons at rest.",
+        "Opening and navigating long transcripts avoids redundant background refolding between frames, and app launch loads your meeting library earlier after recovery.",
+        "Canvas views continue saving reliably when new speech or meeting summaries arrive while a view is being composed.",
+        "Turn connected app access on or off from Plugins, review preparation note suggestions directly on upcoming meetings, and expose chosen Canvas views to connected apps.",
+        "Place plugin views and custom panels across preparation, project, home, notes, and settled meeting pages, and customize Dynamic UI behavior from Plugins.",
+        "Run plugin commands from the command palette or meeting menu, use plugin themes, and toggle built-in calendar preparation, folder publishing, and Apple Reminders features per project or across your library.",
+        "Sync your library across your devices with Standard or end-to-end encrypted Private custody, manage your sync passphrase or delete synced data from Settings, share Standard meetings by link or email invite, and read meetings others have shared with you in Shared with me.",
+        "Built-in plugins and the MCP bridge now ship ready to run inside nightly and release installs, and nightly builds connect to the unified Auldera account service.",
+        "A new library opens with a short made-up meeting that shows the Summary, quoted answers and a Canvas composed as you watch, with your first recording one press away.",
+        "Settings > AI now shows usage and saved comparisons, and says when transcription is ready on your Mac.",
+        "Settings > Projects now opens the Projects view, where you add and change projects.",
+        "Auldera can follow your Mac's light and dark setting, or stay light or dark, and every theme now has a light and a dark version.",
+        "Sign in to Auldera with Apple or an emailed code, right in Settings.",
+        "Feedback, Support and About are in the Help and Auldera menus, and no longer repeated in Settings.",
+        "Settings has a Storage page that shows where your meetings are kept and how much room they take.",
+        "Automatic recording now has one place in Settings, under Recording, and speaker names have their own Speakers page.",
+        "Plugins are on: the Canvas tab composes views of a meeting as it happens, and Ask can answer with a view.",
+        "Settings has a tidier sidebar with an icon for each section, and each page says what it is for.",
+        "Settings looks like a Mac app: real pop-up menus, buttons that look like buttons, and tidier rows.",
+        "VoiceOver now reads \"Show in Finder\" and \"Reconnect\" in Settings without a stray dot before them.",
+        "Meeting reminders now look and sit like a Mac notification in the top right corner, stay above other notifications, and offer Join and Record and Join as one-click buttons."
+      ],
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "InfrastructureBlocked",
+        "coverage": "full-v1",
+        "run_id": "f4c08ae9-6939-4e91-9c86-a3da47cf81ee",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/43821620557"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "3029",
       "channel": "nightly",
       "pub_date": "Thu, 12 Nov 2026 13:21:31 +0000",
@@ -377,44 +423,6 @@
         "coverage": "full-v1",
         "run_id": "fa9af29a-4ea5-4f39-8b6d-98560c0ab872",
         "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/41048016397"
-      }
-    },
-    {
-      "version": "0.1.0",
-      "build": "2655",
-      "channel": "nightly",
-      "pub_date": "Thu, 29 Oct 2026 12:22:30 +0000",
-      "title": "Auldera 0.1.0 (2655)",
-      "enclosure": {
-        "url": "https://releases.auldera.com/Auldera-0.1.0-2655.dmg",
-        "length": 66281254,
-        "type": "application/octet-stream",
-        "ed_signature": "U2vpUM38PvWOqG414Iu9S9A9/MaI2Tgo3k8DDNHHzcxtkk+CmZlwHV20j7lAL/9eJgMQCUiIW5X0cr9JIun0Ag=="
-      },
-      "git_sha": "b66512913389e76fc1c9cf24f295469be426e0d2",
-      "release_notes": [
-        "Pointing at a summary topic or suggestion no longer makes the page jump. The thumbs appear beside it, and the reasons open once you pick one.",
-        "Download the new on-device speaker model from Settings. Speaker labels keep working if the download fails.",
-        "Not filed: the review note on the production archive's write atomicity (no defect named).",
-        "None for people using the app. Dogfood builds upload each meeting's bundle under its settlement, keyed by the bundle's inventory. A library migrated to the new schema keeps a copy of the previous one beside it.",
-        "Live suggestions and meeting topics now read as a clean list instead of stacked grey boxes, with less empty space between them.",
-        "Live meetings and preparation pages have clearer titles and headings, with simpler meeting actions.",
-        "The home page's upcoming meetings now read like a calendar, with each day's date beside its meetings and tomorrow's set quieter, and past meetings show a letter tile and their time at the end of the row.",
-        "Meeting pages have a calmer, book-like look with a Notes and Transcript switch under the title, Record sits at the top of the sidebar, and Send Feedback is back at its foot.",
-        "Home now shows your next working day's meetings under today's, so you can see what's coming once today is done. Each meeting row also has a … button that opens its actions without right-clicking.",
-        "When a long meeting runs low on memory on a smaller Mac, live topic naming now gives up within seconds instead of stalling for minutes, frees its memory, and your topics are still named when you stop recording.",
-        "Send Feedback's meeting option now says it includes the meeting's summary and Ask history.",
-        "Topics in a meeting you just stopped now finish getting their titles, even when your Mac is low on memory.",
-        "Long meetings are more responsive when windows redraw or resize.",
-        "Speaker labels cover more of a meeting's speech when short pauses leave gaps in voice detection.",
-        "In saved meetings, Change speaker and Listen no longer cover the speaker's name or the transcript text, including with long names and larger text sizes."
-      ],
-      "continuity": {
-        "status": "failed",
-        "failure_stage": "guest_recording_setup",
-        "coverage": "full-v1",
-        "run_id": "4032e921-d4e6-4b3f-a9f5-d2f453503830",
-        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/40866258178"
       }
     },
     {
