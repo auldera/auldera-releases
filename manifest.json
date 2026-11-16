@@ -6,6 +6,30 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "3084",
+      "channel": "nightly",
+      "pub_date": "Mon, 16 Nov 2026 14:56:39 +0000",
+      "title": "Auldera 0.1.0 (3084)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-3084.dmg",
+        "length": 87340304,
+        "type": "application/octet-stream",
+        "ed_signature": "wXOYXlGrWVI7z0oVDU5NuWV6n/Nq4XbuBpggBvsMzsvmd6478D+Diqta00P501wDbhRuNdkfB4fDvrEMk/X6Aw=="
+      },
+      "git_sha": "37d5b7cf7beedf5e660baa67f26dbd87c2eb8def",
+      "release_notes": [
+        "Fix switching between Standard and Private Sync, resetting a Private library, changing a Private password, and deleting synced data after a Sync v2 library raises its schema floor."
+      ],
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "InfrastructureBlocked",
+        "coverage": "full-v1",
+        "run_id": "eb4276d0-ddf2-41ec-b8ca-5074b7112a35",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/43878324373"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "3082",
       "channel": "nightly",
       "pub_date": "Mon, 16 Nov 2026 07:20:10 +0000",
@@ -375,54 +399,6 @@
         "coverage": "full-v1",
         "run_id": "ab5e644a-9263-4dff-aa69-f1410bd9f92e",
         "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/41303758663"
-      }
-    },
-    {
-      "version": "0.1.0",
-      "build": "2690",
-      "channel": "nightly",
-      "pub_date": "Fri, 30 Oct 2026 11:37:20 +0000",
-      "title": "Auldera 0.1.0 (2690)",
-      "enclosure": {
-        "url": "https://releases.auldera.com/Auldera-0.1.0-2690.dmg",
-        "length": 66518722,
-        "type": "application/octet-stream",
-        "ed_signature": "7r9rZK7hSqKd59yuord+tn+Ix6UtD1ZMOusDGB9pS0+h/60BdGjhQ51HqsfOMR+Gwx77INagh//gh/oE78yNBA=="
-      },
-      "git_sha": "2a49b745e072df8c767210b95078ffd6fdb0f375",
-      "release_notes": [
-        "Asking a question about a long meeting on your Mac now waits for the on-device model to finish reading the meeting instead of giving up after 29 seconds, and the wait says Reading the meeting… while it works.",
-        "Starting a recording no longer competes with a Project Summary refresh for memory, so recording stays smooth on Macs with less memory. The summary catches up after you stop.",
-        "The meeting page's sidebar now looks like Home: Coming up is grouped by day, and each meeting has one button to record, plus a gear for the rest. A new Home button beside the sidebar button takes you back to Home, and Command-[ steps back to your list.",
-        "The app icon and the install window now share Auldera's warm brown look.",
-        "A meeting's summary no longer waits indefinitely for speaker labels. After a minute it finishes with the labels it has, and recording a new meeting is never held up.",
-        "When you record a Zoom meeting, Auldera can now post a short notice in the meeting chat so others know the call is being recorded. You can skip it each time, copy it to paste yourself, or turn it off in Settings.",
-        "No user-facing change; this adds test coverage only.",
-        "Your meetings stay on your Mac: Auldera no longer uploads recordings or transcripts after a meeting. Settings now lists what still leaves your Mac.",
-        "None. No change to the app; this only changes which release-lane commit the nightly runs.",
-        "Recordings can free memory under severe memory pressure and still finish their summaries after Stop. Hosted recordings release unused local model memory.",
-        "After you name a speaker, a meeting's summary and copied summary use the new name right away, without asking you to rewrite it.",
-        "After you update models in Settings, Auldera is ready to record as soon as the download finishes. Record and automatic meeting start work again without restarting the app.",
-        "If you already have meetings and still need to finish setting up recording, All Meetings now shows the setup steps, including the audio test, so you can finish and start recording.",
-        "Opening a meeting from Home and coming back is quick again, even with a thousand meetings.",
-        "During a recording, the transcript now sits beside your notes as a second page on a wide window, and a Notes and Transcript switch under the title swaps between them on a narrower one.",
-        "Opening a meeting is quicker, especially in a large library, because the meeting now draws once instead of several times.",
-        "Dogfood builds: Home paints a large library as fast with UI replay on as with it off.",
-        "Coming up is simpler: each meeting has one button to record (Join and Record when there's a call link), and a gear that's always there for the rest, including joining without recording.",
-        "None. Dogfood diagnostics record each hosted model request in full.",
-        "On the dogfood Mac, signing in now syncs your meetings and your title, notes and speaker edits with your account, and signing out stops all syncing.",
-        "The setup checklist lines up in one column at every window width, and a finished step shows a single check mark.",
-        "When the window is wide, a meeting's transcript now sits beside your notes as a second page instead of a side panel, and transcript options sit next to the Notes and Transcript switch.",
-        "Auldera has a warmer look: clay-toned backgrounds and a rich brown accent replace the green, and alerts now stand out in amber.",
-        "Auldera can remember a speaker's voice and suggest their name in later meetings. Manage remembered voices in Settings, Recording.",
-        "First-time setup, the empty home page and home's problem notices have a calmer, more consistent look. Setup's buttons now match the rest of home, and both kinds of problem notice look the same."
-      ],
-      "continuity": {
-        "status": "blocked",
-        "failure_stage": "guest_account_enrollment",
-        "coverage": "full-v1",
-        "run_id": "fa9af29a-4ea5-4f39-8b6d-98560c0ab872",
-        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/41048016397"
       }
     },
     {
