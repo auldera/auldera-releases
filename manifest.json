@@ -6,6 +6,82 @@
   "entries": [
     {
       "version": "0.1.0",
+      "build": "3158",
+      "channel": "nightly",
+      "pub_date": "Thu, 19 Nov 2026 14:42:39 +0000",
+      "title": "Auldera 0.1.0 (3158)",
+      "enclosure": {
+        "url": "https://releases.auldera.com/Auldera-0.1.0-3158.dmg",
+        "length": 87014487,
+        "type": "application/octet-stream",
+        "ed_signature": "/yl76MlF8GotTJFAGqlk47w4I0apadmC9GRXNODf1iPAUgnyR1HHHIgbOg3ewzeEWta7jZy8iMO9DA5A3LAMAg=="
+      },
+      "git_sha": "f9f0d46f30003cc8938b96b6b91103069ed05798",
+      "release_notes": [
+        "The Brief now tells screen reader users when. The Brief now tells screen reader users when an earlier recording isn’t on this Mac.",
+        "Starting a scheduled recording keeps the project chosen. Starting a scheduled recording keeps the project chosen for that meeting.",
+        "Recording continues when the sample rate changes on. Recording continues when the sample rate changes on the same microphone. The recording marks any audio missed during the change.",
+        "Restore reporting, log export, and feedback commands in. Restore reporting, log export, and feedback commands in the Help menu.",
+        "Choose from 26 themes, from plain and high-contrast. Choose from 26 themes, from plain and high-contrast to bold colour and editor favourites like Nord and Catppuccin, each with a light and a dark version. Meeting",
+        "Plus 3 smaller fixes. Small fixes and tidy-ups across the app."
+      ],
+      "whats_new": {
+        "build": "3158",
+        "date": "2026-11-19",
+        "headline": "8 improvements in this build.",
+        "items": [
+          {
+            "body": "The Brief now tells screen reader users when an earlier recording isn’t on this Mac.",
+            "icon": "wand.and.stars",
+            "kind": "improved",
+            "title": "The Brief now tells screen reader users when"
+          },
+          {
+            "body": "Starting a scheduled recording keeps the project chosen for that meeting.",
+            "icon": "wand.and.stars",
+            "kind": "improved",
+            "title": "Starting a scheduled recording keeps the project chosen"
+          },
+          {
+            "body": "Recording continues when the sample rate changes on the same microphone. The recording marks any audio missed during the change.",
+            "icon": "wand.and.stars",
+            "kind": "improved",
+            "title": "Recording continues when the sample rate changes on"
+          },
+          {
+            "body": "Restore reporting, log export, and feedback commands in the Help menu.",
+            "icon": "wand.and.stars",
+            "kind": "improved",
+            "title": "Restore reporting, log export, and feedback commands in"
+          },
+          {
+            "body": "Choose from 26 themes, from plain and high-contrast to bold colour and editor favourites like Nord and Catppuccin, each with a light and a dark version. Meeting",
+            "icon": "wand.and.stars",
+            "kind": "improved",
+            "title": "Choose from 26 themes, from plain and high-contrast"
+          },
+          {
+            "body": "Small fixes and tidy-ups across the app.",
+            "icon": "wrench.and.screwdriver",
+            "kind": "fixed",
+            "rollup": 3,
+            "title": "Plus 3 smaller fixes"
+          }
+        ],
+        "schemaVersion": 1,
+        "size": "medium",
+        "version": "0.1.0"
+      },
+      "continuity": {
+        "status": "blocked",
+        "failure_stage": "guest_account_enrollment",
+        "coverage": "full-v1",
+        "run_id": "a462a464-db1e-4b9a-91b1-5a1b65a4475d",
+        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/44544033734"
+      }
+    },
+    {
+      "version": "0.1.0",
       "build": "3126",
       "channel": "nightly",
       "pub_date": "Wed, 18 Nov 2026 15:17:51 +0000",
@@ -333,64 +409,6 @@
         "coverage": "full-v1",
         "run_id": "1713f471-f5f8-4f76-a245-23c1896e027a",
         "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/42824680176"
-      }
-    },
-    {
-      "version": "0.1.0",
-      "build": "2987",
-      "channel": "nightly",
-      "pub_date": "Mon, 09 Nov 2026 12:30:39 +0000",
-      "title": "Auldera 0.1.0 (2987)",
-      "enclosure": {
-        "url": "https://releases.auldera.com/Auldera-0.1.0-2987.dmg",
-        "length": 68532604,
-        "type": "application/octet-stream",
-        "ed_signature": "6HDmuGMQ8OWB/MEK9o3t+nnE/4s2uQmg1XuhpGq991fNtGu9gBzNQ0oidAkTvuB5pBiusSzoRA++1DCpwSsbCw=="
-      },
-      "git_sha": "e89d5efe41be01176ce3aeed2f713d6e73b64608",
-      "release_notes": [
-        "Prepares customizable color themes and high-contrast appearance support for upcoming extensions, with no change to current app behavior.",
-        "Prepares the sandboxed plugin helper runtime and bundle signing checks for upcoming plugin extensions, with no change to current app behavior.",
-        "Remembering a voice in a one-on-one Zoom call no longer asks whether the speaker is one person.",
-        "Internal.",
-        "Choose from ten visual themes in Settings under App.",
-        "Using VoiceOver or another assistive app on the New Project name field no longer reloads the window.",
-        "Using VoiceOver or another assistive app on the meeting name no longer reloads the meeting window.",
-        "Scrolling to the top of a live transcript keeps your place and Jump to Latest instead of returning to the newest words.",
-        "A meeting's suggested Ask questions now show before you ask anything.",
-        "VoiceOver now reads Home as the window's main content, and each project on Home as a button you can press.",
-        "Sidebar buttons stay readable at larger text sizes, and a meeting's \"…\" menu no longer covers its time while open.",
-        "Create a project with an optional description directly from a meeting's Project menu",
-        "When you rename a speaker, a meeting from another Mac shows that name in its summary.",
-        "Transcription stays on this Mac. Summaries and questions can still use a hosted model.",
-        "Transcripts align more consistently, summary sections have clearer spacing, and long meeting statuses and voice prompts remain readable.",
-        "The live transcript stays with the newest words while you record until you scroll up to read earlier lines, and Jump to Latest reliably brings you back.",
-        "Renaming a Zoom speaker after remembering their voice updates their detected words too.",
-        "Meetings just after midnight now appear under the date they start.",
-        "Removing a pinned line in **Before you finish** now updates the notes editor immediately even when the notes field holds focus, and leaves the sealed meeting summary settled so **Last time** on the next meeting in the series keeps its summary.",
-        "An edited or dismissed action item stays edited or gone when you copy the summary, publish the notes, or look at last time.",
-        "When you start a new meeting on this Mac while Auldera is still writing the previous meeting's summary, that summary now finishes in the background instead of stopping.",
-        "Live meeting summaries now address you directly in the second person instead of treating your speaker label as a third-person name.",
-        "Choose System, Light, or Dark appearance in Settings under App.",
-        "Scrollbars stay hidden in the sidebar and menus, and appear as a subtle rounded pill in the notes and transcript panes only while you hover or edit.",
-        "Suggested counts stay aligned across Home, Projects, and Review after you add a meeting to a project.",
-        "Meeting summaries for longer calls finish faster when a summary pass needs to shorten its bullets to fit.",
-        "Action items now show the right owner when a commitment starts with \"You will\" or names a group, and format owners the same way across meetings.",
-        "Meeting reminder cards now match the Light and Dark design board with the app icon, start-time copy, and inline action buttons.",
-        "The note that confirms a meeting was added to a project now puts a dot before its Undo link, and a filing note or refusal followed by a link omits its trailing period before the dot.",
-        "Auldera checks for updates when it opens and lets you install a new version before starting meeting detection or setup.",
-        "Home stays responsive while meeting countdowns update.",
-        "No user-visible change: this adds the Suggested Projects journey tests.",
-        "Removing a pin during pin review no longer causes the \"You edited this meeting\" notice to reappear after relaunching the app.",
-        "You can describe several projects at once from Improve Suggested Projects, so Auldera suggests the right project for more of your meetings. It opens from a meeting's project menu and from the Not in a project page.",
-        "Right now, the live line that says what the meeting is about, now speaks to you correctly: \"You are proposing…\" instead of \"You is proposing…\"."
-      ],
-      "continuity": {
-        "status": "blocked",
-        "failure_stage": "InfrastructureBlocked",
-        "coverage": "full-v1",
-        "run_id": "9d5cc220-7c24-42af-9aa1-fb474d7e5fef",
-        "workflow_run": "https://github.com/auldera/auldera-macos/actions/runs/42614885855"
       }
     },
     {
